@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Costos de viajes en auto</h1>
+
+    <div class="container">
+
+      <h1>Calculadora de costo de viaje</h1>
+
+      <form id="costo-viaje-form">
+        <div class="form-group">
+          <label for="kmL">Kilómetros por litro:</label>
+          <input type="number" id="kmL" name="kmL" required>
+        </div>
+        <div class="form-group">
+          <label for="km">Kilómetros recorridos:</label>
+          <input type="number" id="km" name="km" required>
+        </div>
+        <div class="form-group">
+          <label for="precioCombustible">Precio del combustible por litro:</label>
+          <input type="number" id="precioCombustible" name="precioCombustible" required>
+        </div>
+        <button onclick="costoViaje()">Calcular costo del viaje</button>
+        <p id="resultado"></p>
+      </form>
+
+    </div>
+
+</body>
+
+<script src="main.js"></script>
+</body>
+</html>
