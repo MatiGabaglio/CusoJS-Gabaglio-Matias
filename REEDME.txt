@@ -1,0 +1,8 @@
+Este programa de JS busca calcular el precio de un viaje en auto. Solo considera el gasto en combustible.
+
+Pide al usuario ingresar el consumo de combustile en litro por klimetro, los cilometros recorridos 
+y el precio del combustible. Luego calcula el precio del viaje en pesos
+
+Realiza una validacion del tipo de dato ingresado por el usuario enc ada caso para segurase de que se ingrsan
+numeros. Por ultimo, el programa se ejecuta preguntado al usuario si queire calcular el precio de un viaje,
+esto permite que se puedan calcular varios viajes sin tener que volver a abrir el programa.
