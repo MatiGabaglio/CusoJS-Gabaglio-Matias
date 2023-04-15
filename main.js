@@ -35,10 +35,11 @@ const precioCombustible = () => {
 
 // Esta función calcula el costo del viaje
 const costoViaje = () => {
+    event.preventDefault()
     const kmValue = km();
     const kmLValue = kmL();
     const precioCombustibleValue = precioCombustible();
     let costoViaje = (kmValue / kmLValue) * precioCombustibleValue;
     console.log(costoViaje);
-    document.getElementById("resultado").innerHTML = `El costo del viaje es: ${costoViaje}`;
+    document.getElementById("resultado").innerHTML = `El costo del viaje es: ${costoViaje.toFixed(2)}`;
     }
